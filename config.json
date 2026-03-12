@@ -1,0 +1,118 @@
+{
+  "lastUpdated": "2026-03-11",
+  "forecastPeriod": "February 2026",
+  "month": "February",
+  "year": 2026,
+  "contact": {
+    "name1": "Shrad Shukla",
+    "email1": "sshukla@ucsb.edu",
+    "name2": "Frank Davenport",
+    "email2": "frank_davenport@ucsb.edu"
+  },
+  "regions": [
+    {
+      "id": "east-africa",
+      "name": "East Africa",
+      "crop": "Sorghum",
+      "season": "Short/Deyr season",
+      "countries": ["Somalia"],
+      "summary": "After masking for historical skill and percentage of cropped area in a given administrative unit, Sorghum crop yield forecasts (relative to 2018-2022 mean) in Somalia are generally <strong>below normal with deficits of 20 to >40% in key high production areas of Central Somalia (including the Bay administrative unit)</strong>.",
+      "caveats": [
+        "Crop yield forecasts are masked for administrative units where historical Mean Absolute Prediction Error (MAPE) is above 40% and crop percent area is at least 1%.",
+        "For Eastern Africa, machine learning based crop yield forecasts are presented for Sorghum crop (Short/Deyr season) only for Somalia, based on climate conditions through February 2026.",
+        "We provide absolute yield forecasts as well as anomalies relative to the 2018-2022 observed crop yield."
+      ],
+      "imageBase": "https://data.chc.ucsb.edu/experimental/CAPE/viewer/figures/regional",
+      "imagePaths": {
+        "absolute": "/2026/east_africa/Deyr/February/Sorghum/GB/without_masked/East_Africa_2026_Sorghum_yield_forecasts.png",
+        "anomaly2018": "/2026/east_africa/Deyr/February/Sorghum/GB/masked/East_Africa_2026_Sorghum_yield_forecasts_percentage_Anomaly_relative_to_2018-2022_observed_yield_mean.png",
+        "anomaly10yr": "/2026/east_africa/Deyr/February/Sorghum/GB//East_Africa_2026_Sorghum_yield_forecasts_relative_to_past_10_years_hindcast.png",
+        "skill": "/2026/east_africa/Deyr/February/Sorghum/GB//East_Africa_Sorghum_yield_forecasts_average_skill_score_MAPE.png",
+        "meanYield": "/2026/east_africa/Deyr/February/Sorghum/GB//East_Africa_Sorghum_mean_yield.png",
+        "meanProduction": "/2026/east_africa/Deyr/February/Sorghum/GB//East_Africa_Sorghum_mean_production.png",
+        "observedYield": "/2026/east_africa/Deyr/February/Sorghum/GB//East_Africa_Sorghum_observed_yield_record.png",
+        "cropMask": "/2026/east_africa/Deyr/February/Sorghum/GB//East_Africa_crop_mask.png"
+      }
+    },
+    {
+      "id": "southern-africa",
+      "name": "Southern Africa",
+      "crop": "Maize",
+      "season": "Main/Summer/Annual season",
+      "countries": ["Madagascar", "Malawi", "Mozambique", "Zimbabwe", "Angola", "Lesotho", "Zambia"],
+      "summary": "After masking for historical skill, Maize crop yield forecasts (relative to 2013-2017 mean) are generally <strong>below normal in Angola and parts of Zambia, and normal to above normal in Northern Zimbabwe and South Africa, including in the high production regions of South Africa</strong>. Mix of above and below normal anomalies can be seen in Malawi. Relative to 2018-2022 mean anomalies in <strong>South Africa are near normal to slightly below normal and in parts of Northern Zimbabwe the anomaly is 20 to 30% below normal</strong>.",
+      "caveats": [
+        "Crop yield forecasts are masked for administrative units where historical Mean Absolute Prediction Error (MAPE) is above 40% and percent crop area (as per IFPRI crop mask) is at least 1%.",
+        "For Southern Africa, machine learning based crop yield forecasts are presented for Maize crop (summer season) only for Madagascar, Malawi, Mozambique, Zimbabwe, Angola, Lesotho, Zambia, based on climate conditions through February 2026.",
+        "We provide absolute yield forecasts as well as anomalies relative to the 2013–2017 and 2018-2022 observed crop yield.",
+        "The observed yield data for Madagascar and Mozambique ends in 2010 and 2014 respectively making the model training period >= 10 years older than the current harvest year. Due to which and short training data in general, we don't think the forecasts over those countries will be inherently reliable.",
+        "The availability of observed yield data varies among countries. We found that for 2013-2017 baseline yield data is present across 6 out of 8 countries and for 2018-2022 baseline yield data is present across 2 out of 8 countries."
+      ],
+      "imageBase": "https://data.chc.ucsb.edu/experimental/CAPE/viewer/figures/regional",
+      "imagePaths": {
+        "absolute": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/without_masked/Southern_Africa_2026_Maize_yield_forecasts.png",
+        "anomaly2013": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/masked/Southern_Africa_2026_Maize_yield_forecasts_percentage_Anomaly_relative_to_2013-2017_observed_yield_mean.png",
+        "anomaly2018": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/masked/Southern_Africa_2026_Maize_yield_forecasts_percentage_Anomaly_relative_to_2018-2022_observed_yield_mean.png",
+        "anomaly10yr": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/Southern_Africa_2026_Maize_yield_forecasts_relative_to_past_10_years_hindcast.png",
+        "skill": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/Southern_Africa_Maize_yield_forecasts_average_skill_score_MAPE.png",
+        "meanYield": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/Southern_Africa_Maize_mean_yield.png",
+        "meanProduction": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/Southern_Africa_Maize_mean_production.png",
+        "observedYield": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/Southern_Africa_Maize_observed_yield_record.png",
+        "cropMask": "/2026/southern_africa/Main-Summer-Annual/February/Maize/GB/Southern_Africa_crop_mask.png"
+      }
+    },
+    {
+      "id": "west-africa",
+      "name": "West Africa",
+      "crop": "TBD",
+      "season": "TBD",
+      "countries": [],
+      "summary": "Maps coming soon.",
+      "caveats": [],
+      "imageBase": "https://data.chc.ucsb.edu/experimental/CAPE/viewer/figures/regional",
+      "imagePaths": {}
+    }
+  ],
+  "cape_predictors": [
+    {
+      "name": "PRCP.",
+      "description": "Accumulated Precip. (CHIRPS-V2)",
+      "sign": "+"
+    },
+    {
+      "name": "PDRY",
+      "description": "Accumulated Dry Days (CHIRPS-V2)",
+      "sign": "-"
+    },
+    {
+      "name": "ETOS",
+      "description": "Accumulated ET0 (NOAA-PSL)",
+      "sign": "-"
+    },
+    {
+      "name": "TEMP",
+      "description": "Avg. Temp (NOAA-CPC)",
+      "sign": "+/-"
+    },
+    {
+      "name": "GDD",
+      "description": "Growing Degree Days (NOAA-CPC)",
+      "sign": "+"
+    },
+    {
+      "name": "KDD",
+      "description": "Killing Degree Days (NOAA-CPC)",
+      "sign": "-"
+    },
+    {
+      "name": "NDVI",
+      "description": "Vegetation Index (eVIIRS/eVMOD)",
+      "sign": "+"
+    },
+    {
+      "name": "Year",
+      "description": "Trend Term",
+      "sign": "+/-"
+    }
+  ]
+}

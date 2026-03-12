@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHC Crop Yield Forecasts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌾 CHC Crop Yield Forecasts</h1>
+            <p class="subtitle">Climate Hazards Center - Africa Regional Forecasts</p>
+            <div id="forecast-date" class="forecast-date"></div>
+        </header>
+
+        <nav class="tabs">
+            <button class="tab-button active" data-region="east-africa">East Africa</button>
+            <button class="tab-button" data-region="southern-africa">Southern Africa</button>
+            <button class="tab-button" data-region="west-africa">West Africa</button>
+        </nav>
+
+        <main id="content" class="content">
+            <!-- Dynamically generated region content -->
+        </main>
+
+        <footer>
+            <p>For questions, contact: <span id="contact-info"></span></p>
+            <p><small>Data sources: CHIRPS (UCSB), NOAA-PSL, USGS/EROS, IIASA-IFPRI</small></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
