@@ -14,7 +14,7 @@
       "id": "east-africa",
       "name": "East Africa",
       "crop": "Sorghum",
-      "season": "Short/Deyr season",
+      "season": "Gu season",
       "countries": ["Somalia"],
       "summary": "After masking for historical skill and percentage of cropped area in a given administrative unit, Sorghum crop yield forecasts (relative to 2018-2022 mean) in Somalia are generally **below normal, particularly in the high production areas**. In some cases forecasted yield anomaly is greater than 40% below normal.",
       
