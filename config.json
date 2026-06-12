@@ -42,7 +42,7 @@
       "crop": "Maize",
       "season": "Main/Summer/Annual season",
       "countries": ["Madagascar", "Malawi", "Mozambique", "Zimbabwe", "Angola", "Lesotho", "Zambia"],
-      "summary": "After masking for historical skill, Maize crop yield forecasts (relative to 2013-2017 mean) are generally <strong>below normal in Angola and parts of Zambia, and normal to above normal in Northern Zimbabwe and South Africa, including in the high production regions of South Africa</strong>. Mix of above and below normal anomalies can be seen in Malawi. Relative to 2018-2022 mean anomalies in <strong>South Africa are near normal to slightly below normal and in parts of Northern Zimbabwe the anomaly is 20 to 30% below normal</strong>.",
+      "summary": "After masking for historical skill, Maize crop yield forecasts (relative to 2013-2017 mean) are generally **below normal in Angola and parts of Zambia, and normal to above normal in Northern Zimbabwe and South Africa, including in the high production regions of South Africa**. Relative to 2018-2022 mean anomalies in **South Africa and Zimbawe are expected to be generally near normal, except for in Mashonland East**.",
       "caveats": [
         "Crop yield forecasts are masked for administrative units where historical Mean Absolute Prediction Error (MAPE) is above 40% and percent crop area (as per IFPRI crop mask) is at least 1%.",
         "For Southern Africa, machine learning based crop yield forecasts are presented for Maize crop (summer season) only for Madagascar, Malawi, Mozambique, Zimbabwe, Angola, Lesotho, Zambia, based on climate conditions through March 2026.",
