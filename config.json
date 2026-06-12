@@ -33,7 +33,7 @@
         "meanYield": "/2026/east_africa/Gu/May/Sorghum/GB//East_Africa_Sorghum_mean_yield.png",
         "meanProduction": "/2026/east_africa/Gu/May/Sorghum/GB//East_Africa_Sorghum_mean_production.png",
         "observedYield": "/2026/east_africa/Gu/May/Sorghum/GB//East_Africa_Sorghum_observed_yield_record.png",
-        "cropMask": "/2026/east_africa/Gu/May/Sorghum/GB//East_Africa_Crop_Area.png"
+        "cropMask": "/East_Africa_Crop_Area.png"
       }
     },
     {
@@ -60,7 +60,7 @@
         "meanYield": "/2026/southern_africa/Main-Summer-Annual/April/Maize/GB/Southern_Africa_Maize_mean_yield.png",
         "meanProduction": "/2026/southern_africa/Main-Summer-Annual/April/Maize/GB/Southern_Africa_Maize_mean_production.png",
         "observedYield": "/2026/southern_africa/Main-Summer-Annual/April/Maize/GB/Southern_Africa_Maize_observed_yield_record.png",
-        "cropMask": "/2026/southern_africa/Main-Summer-Annual/April/Maize/GB/Southern_Africa_Crop_Area.png"
+        "cropMask": "/Southern_Africa_Crop_Area.png"
       }
     },
     {
